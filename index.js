@@ -1,4 +1,4 @@
 import app from './app.js'
 
-app.listen(8003)
+app.listen(process.env.PORT || 8003)
 
